@@ -1,0 +1,222 @@
+/* font-family: 'Oswald', sans-serif; */
+/* common style start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    
+    
+}
+/* common end */
+
+/* header prt start */
+header{
+    padding: 10px 0;
+
+}
+.container{
+    margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{}
+
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;  
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+
+}
+.menu ul li a:hover{
+    color: tomato;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+   
+}
+/* header part end */
+
+/* first section start */
+h1{
+font-size: 50px;
+color: rgb(49, 49, 49);
+margin: 0;
+}
+.style{
+    color: tomato;
+}
+p{
+font-size: 14px;
+margin-bottom: 10%;
+
+}
+.link01{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+
+}
+.text{
+    width: 40%;
+    float: left;
+   
+    
+    
+}
+.image{
+    width: 50%;
+    float: right;
+    
+    
+ 
+}
+.image img{
+    width: 80%;
+    margin-left: 21%;
+}
+
+.part-image{
+    width: 45%;
+    float: left;
+    margin-top: 40px;
+}
+.part-image img{
+    width: 100%;
+}
+
+.part-text{
+    width: 40%;
+    float: right;
+    margin-top: 40px;
+}
+.part-text h1{}
+.part-text p{}
+.part-text a{}
+
+
+
+.teamh1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    
+}
+samp{
+    color: tomato;
+    font-family: 'Oswald';
+}
+
+/* 3rd part start */
+
+.part-three{
+    margin: 0 10px;
+    margin-top: 50px;
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+    box-shadow:10px 10px 40px gray
+    
+}
+.part-three img{
+    width: 100%;
+}
+.part-three h2{
+    padding-left: 5px;
+    color: rgb(66, 66, 66);
+}
+.part-three p{
+    margin-left: 10px;
+    color: gray;
+}
+
+.team{
+    width: 32%;
+    float: left;
+    background-color: rgb(51, 51, 153);
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px tomato;
+}
+.team img{
+    width: 100%;
+}
+.team h2{
+    color: white;
+    text-align: center;
+}
+.team h4{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+    
+}
+
+h2{
+    text-align: center;
+    text-transform: lowercase;
+    color: rgb(39, 38, 38);
+}
+.shape{
+    width: 50%;
+    margin: 3%;
+    position: relative;
+    margin-left: 250px;
+}
+.shape img{
+    width: 100%;
+}
+.shape h5{
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    font-size: 30px;
+    color: white;
+
+}
+.shape btn{
+    position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+
+
+
